@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" id="svg10133" viewBox="0 0 128 128" version="1.1">
+  <title id="title10846">mortgage rate</title>
+  <defs id="defs10135">
+    <linearGradient id="linearGradient10820" y2="25.632" gradientUnits="userSpaceOnUse" y1="16.597" x2="12.628" x1="12.632">
+      <stop id="stop10816" stop-color="#090" offset="0"/>
+      <stop id="stop10818" stop-color="#6c3" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient10828" y2="25.563" gradientUnits="userSpaceOnUse" y1="16.224" x2="12.53" x1="14.632">
+      <stop id="stop10824" stop-color="#090" offset="0"/>
+      <stop id="stop10826" stop-color="#6c3" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient10844" x1="31.197" gradientUnits="userSpaceOnUse" y1="25.485" gradientTransform="matrix(2.3047 0 0 2.0918 -2.4102 -65.349)" x2="18.102" y2="47.824">
+      <stop id="stop10840" stop-color="#090" offset="0"/>
+      <stop id="stop10842" stop-color="#060" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="layer1" stroke="#2c9d14" transform="translate(0,64)">
+    <path id="path10655" stroke-linejoin="round" d="m20.613 20.732a5.177 5.7469 0 1 1 -10.354 0 5.177 5.7469 0 1 1 10.354 0z" fill-rule="evenodd" transform="matrix(2.2015 4.0915 -3.0663 2.3447 52.625 -139.7)" stroke-linecap="round" stroke-width=".10018" fill="url(#linearGradient10820)"/>
+    <path id="path10143" stroke-width=".42157" fill="url(#linearGradient10844)" d="m16.427 55.145 53.788-82.169 11.719-18.783-15.588-5.8048 35.281-5.6417 10.581 27.985-10.977-7.363-15.695 19.651-61.659 76.614-7.4514-4.4886z"/>
+    <g id="g10681" stroke-linejoin="round" fill-rule="evenodd" transform="matrix(3.1971 -.77530 .85666 2.8934 -46.782 -56.527)" stroke-linecap="round" stroke-width=".13388" fill="#deffff">
+      <rect id="rect10659" transform="rotate(45)" height="2.1523" width="1.3955" y="-16.842" x="36.248"/>
+      <rect id="rect10661" transform="rotate(45)" height="2.1523" width="1.3955" y="-16.652" x="38.908"/>
+      <rect id="rect10663" transform="rotate(45)" height="2.1523" width="1.3955" y="-13.517" x="36.248"/>
+      <rect id="rect10665" transform="rotate(45)" height="2.1523" width="1.3955" y="-13.327" x="38.908"/>
+    </g>
+    <path id="path10697" stroke-linejoin="round" d="m20.613 20.732a5.177 5.7469 0 1 1 -10.354 0 5.177 5.7469 0 1 1 10.354 0z" fill-rule="evenodd" transform="matrix(2.2015 4.0332 -3.0663 2.426 134.07 -78.988)" stroke-linecap="round" stroke-width=".10018" fill="url(#linearGradient10828)"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
