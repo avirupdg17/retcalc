@@ -2,7 +2,7 @@
 {% load static %}
 {% block extra_head %}
     <!-- own css -->
-    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <link rel="stylesheet" href="{% static 'css/newlogin.css' %}">
     {% endblock %}
 
 {% block body_block %}
@@ -26,10 +26,10 @@
 </div>
 <hr>
 <div class="container">
-  <div class="row justify-content-md-center">
+  <div class="row justify-content-sm-center">
     <h6>New to Retirement Calculator?</h6>
   </div>
-  <div class="row justify-content-md-center">
+  <div class="row justify-content-sm-center ">
     <a href="{% url 'usercreation:signup' %}" class="btn btn-primary">Signup</a>
   </div>
 </div>

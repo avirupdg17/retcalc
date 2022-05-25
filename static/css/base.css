@@ -1,45 +1,68 @@
-.sidenav {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: auto;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  .sidenav a {
-    padding: 6px 6px 6px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
-  }
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
 
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 
-  .techfont{
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* @media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float:inline-start;
+    
+  }
+  div.content {margin-left: 0;}
+} */
+
+.techfont{
     font-size: larger;
     color: white;
-  }
+}
 
-  a:link{
-    color: white; 
-  } 
+.navbar-right > li a:link{    
+  color: white; 
+} 
 
-  .navbar-right > li{
+.navbar-right > li{
     padding-left:10px;
     padding-right:10px;
     
-  }
+}
 
   
