@@ -5,7 +5,8 @@ from django.urls import reverse
 from django.http import HttpResponse,HttpResponseRedirect
 from .forms import UserProfileInfoForm,UserForm
 
-
+def index(request):
+    return render(request,'usercreation/index.html')
 
 # Create your views here.
 def user_login(request):
@@ -19,7 +20,7 @@ def user_login(request):
         if user:
             if user.is_active: 
                 login(request,user)
-                return HttpResponseRedirect(reverse('learning_users:index'))
+                return HttpResponseRedirect(reverse('usercreation:index'))
             else:
                 return HttpResponse('Account not active')
 
@@ -36,7 +37,7 @@ def user_login(request):
 @login_required
 def user_logout(request):
     logout(request)
-    return HttpResponseRedirect(reverse('learning_users:index'))
+    return HttpResponseRedirect(reverse('usercreation:index'))
 
 def register(request):
     registered = False
@@ -67,4 +68,4 @@ def register(request):
         user_form = UserForm()
         profile_form = UserProfileInfoForm()
 
-    return render(request,'registration.html',{'user_form':user_form,'profile_form':profile_form,'registered':registered})
+    return render(request,'usercreation/registration.html',{'user_form':user_form,'profile_form':profile_form,'registered':registered})

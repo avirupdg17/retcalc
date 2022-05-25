@@ -29,6 +29,17 @@
 
   .techfont{
     font-size: larger;
+    color: white;
+  }
+
+  a:link{
+    color: white; 
+  } 
+
+  .navbar-right > li{
+    padding-left:10px;
+    padding-right:10px;
+    
   }
 
   
